@@ -39,8 +39,7 @@
         {
           default =
             let
-              inherit (inputs) flutter-nix android-nixpkgs;
-              flutter-sdk = flutter-nix.packages.${system};
+              inherit (inputs) android-nixpkgs;
               sdk = (import android-nixpkgs { }).sdk (
                 sdkPkgs: with sdkPkgs; [
                   build-tools-30-0-3
