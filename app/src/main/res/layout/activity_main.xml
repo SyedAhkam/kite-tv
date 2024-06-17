@@ -6,10 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <WebView
-        android:id="@+id/webview"
+    <world.syed.kite_tv.CursorLayout
+        android:id="@+id/cursor_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-    />
+        android:layout_height="match_parent">
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        />
+    </world.syed.kite_tv.CursorLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
