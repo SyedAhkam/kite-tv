@@ -1,3 +1,6 @@
+// Code stolen from this stackoverflow post:
+// https://stackoverflow.com/a/67964211/13353807
+
 package world.syed.kite_tv;
 
 import android.widget.FrameLayout;
