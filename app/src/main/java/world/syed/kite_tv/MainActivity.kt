@@ -32,7 +32,6 @@ class MainActivity : AppCompatActivity() {
 
 
         var webSettings = webview.getSettings();
-        webSettings.setJavaScriptEnabled(true);
 
         webSettings.setJavaScriptEnabled(true);
         webSettings.setLoadWithOverviewMode(true);
@@ -60,8 +59,6 @@ class MainActivity : AppCompatActivity() {
         webview.setScrollbarFadingEnabled(false);
 
         webview.loadUrl("https://kite.zerodha.com");
-
-        val cursorLayout: CursorLayout = findViewById(R.id.cursor_layout)
     }
 
     override fun onBackPressed() {
